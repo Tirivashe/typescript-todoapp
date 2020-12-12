@@ -33,7 +33,7 @@ function EditTodo() {
   }
   return (
     <div>
-      <h1>Edit Todo</h1>
+      <h1 style={{ textAlign: "center" }}>Edit Todo</h1>
       <form className={classes.form} onSubmit={handleSubmit}>
         <TextField
           fullWidth

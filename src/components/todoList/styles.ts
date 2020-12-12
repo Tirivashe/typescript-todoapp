@@ -12,6 +12,7 @@ export const useStyles = makeStyles(theme => ({
     color: "white",
     marginTop: "1rem",
     boxShadow: "none",
+    marginBottom: "1.5rem",
     '&:hover':{
       backgroundColor: blue["600"]
     }

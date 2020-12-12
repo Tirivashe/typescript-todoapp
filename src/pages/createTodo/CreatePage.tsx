@@ -24,7 +24,7 @@ function CreateTodo() {
   }
   return (
     <div>
-      <h1>Create Todo</h1>
+      <h1 style={{ textAlign: "center" }}>Create Todo</h1>
       <form className={classes.form} onSubmit={handleSubmit}>
         <TextField
           fullWidth
