@@ -28,6 +28,7 @@ function CreateTodo() {
       <form className={classes.form} onSubmit={handleSubmit}>
         <TextField
           fullWidth
+          autoComplete="off"
           variant='outlined' 
           name="description" 
           label="Create Todo"

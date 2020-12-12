@@ -37,6 +37,7 @@ function EditTodo() {
       <form className={classes.form} onSubmit={handleSubmit}>
         <TextField
           fullWidth
+          autoComplete="off"
           variant='outlined' 
           name="description" 
           label="Description"
